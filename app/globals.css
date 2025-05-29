@@ -5,6 +5,15 @@
   --foreground: #171717;
 }
 
+html {
+ 
+}
+
+@font-face{
+  font-family: "burtons";
+  src: url("../public/Burtons.otf");
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -23,4 +32,5 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+   @apply text-black;
 }

@@ -90,17 +90,18 @@ export default function Home() {
             <Image className='mx-auto' src={design} width={100} height={100} />
             <h3 className='text-lg font-medium pt-8 pb-2  dark:text-gray-400'> Front-end</h3>
            
-            <p className='text-gray-800 py-1 dark:text-gray-200'>Construção de site modernos</p>
-            <p className='text-gray-800 py-1 dark:text-gray-200'>Responsividade</p>
-            <p className='text-gray-800 py-1 dark:text-gray-200'>Ui/ux designer</p>
+            <p className='text-gray-800 py-1 dark:text-gray-200'>Html & css</p>
+            <p className='text-gray-800 py-1 dark:text-gray-200'>Tailwind</p>
+            <p className='text-gray-800 py-1 dark:text-gray-200'>Bootstrap</p>
+             <p className='text-gray-800 py-1 dark:text-gray-200'>React</p>
          </div>
 
          <div className='text-center shadow-lg p-10 rounded-xl my-10'>
             <Image className='mx-auto  ' src={code} width={100} height={100} />
             <h3 className='text-lg font-medium pt-8 pb-2 dark:text-gray-400'>Back end</h3>
-            <p className='text-gray-800 py-1 dark:text-gray-200'>Api restfull</p>
-            <p className='text-gray-800 py-1 dark:text-gray-200'>Mvc</p>
-             <p className='text-gray-800 py-1 dark:text-gray-200'>Banco de dados Sql & NoSql</p>
+            <p className='text-gray-800 py-1 dark:text-gray-200'>Node.js</p>
+            <p className='text-gray-800 py-1 dark:text-gray-200'>Banco de dados mysql & noSql, sequelize</p>
+             <p className='text-gray-800 py-1 dark:text-gray-200'>Api rest full</p>
          </div>
 
          
@@ -109,19 +110,19 @@ export default function Home() {
          
         </section>
         
-        <section>
-          <div className='m-4 bg-white p-4 rounded shadow grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
-            <div className='bg-white p-4 rounded shadow text-center hover:bg-gray-300'> 
+        <section className=" ">
+          <div className='m-4 bg-white p-4 rounded shadow grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 dark:bg-gray-900'>
+            <div className='bg-white p-4 rounded shadow text-center hover:bg-gray-300 dark:bg-gray-900 dark:hover:bg-gray-800'> 
               <a href='https://github.com/mateuscaetano952/Cadastro_alunod_api_rest'>
                 <Image className='mx-auto' src={web1} />
               </a>
               
-              <p className='font-bold'>Cadastro de alunos Api rest</p>
+              <p className='font-bold dark:text-gray-400'>Cadastro de alunos Api rest</p>
               <p className='text-sm text-gray-600'>
                 <ul>
-                  <li>Cadastro de alunos com suporte a imagens</li>
-                  <li>Api rest</li>
-                  <li>Autentificação com JWT (JSON Web Token).</li>
+                  <li className='text-gray-800 py-1 dark:text-gray-200'>Cadastro de alunos com suporte a imagens</li>
+                  <li className='text-gray-800 py-1 dark:text-gray-200'>Api rest</li>
+                  <li className='text-gray-800 py-1 dark:text-gray-200'>Autentificação com JWT (JSON Web Token).</li>
                   <li>
                   
                   </li>
@@ -130,17 +131,17 @@ export default function Home() {
             </div>
 
             
-            <div className='bg-white p-4 rounded shadow text-center hover:bg-gray-300'> 
+            <div className='bg-white p-4 rounded shadow text-center hover:bg-gray-300 dark:bg-gray-900 dark:bg-gray-900 dark:hover:bg-gray-800'> 
               <a href='https://github.com/mateuscaetano952/projeto_finans_webdev2022'>
                 <Image className='mx-auto' src={web2} />
               </a>
               
-              <p className='font-bold'>Projeto finans</p>
+              <p className='font-bold dark:text-gray-400'>Projeto finans</p>
               <p className='text-sm text-gray-600'>
                 <ul>
-                  <li>Html & Css</li>
-                  <li>Responsividade</li>
-                  <li>Bootstrap.</li>
+                  <li className='text-gray-800 py-1 dark:text-gray-200'>Html & Css</li>
+                  <li className='text-gray-800 py-1 dark:text-gray-200'>Responsividade</li>
+                  <li className='text-gray-800 py-1 dark:text-gray-200'>Bootstrap.</li>
                   <li>
                   
                   </li>
